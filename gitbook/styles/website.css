@@ -82,3 +82,19 @@ input[type=checkbox]{
 table td:nth-child(1) {
     white-space: nowrap;
 }
+
+.book-summary ul.summary li.header {
+  text-transform: none;
+}
+
+.book-summary ul.summary li span {
+  color: #afafaf;
+}
+
+.book-summary ul.summary {
+  margin-left: 5px;
+}
+
+.book-summary ul.summary li a, .book-summary ul.summary li span {
+  padding: 8px 15px;
+}
