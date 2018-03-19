@@ -1,0 +1,8 @@
+Host github.com
+ User git
+ Port 22
+ Hostname github.com
+ ProxyCommand "D:/soft/Git/mingw64/bin/connect.exe" -H 127.0.0.1:12345 %h %p
+ IdentityFile "C:/Users/Administrator/.ssh/id_rsa"
+ TCPKeepAlive yes
+ IdentitiesOnly yes
