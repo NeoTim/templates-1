@@ -68,7 +68,7 @@ return
     send {F11}
 return
 
-#+::
+#=::
     send {F12}
 return
 
